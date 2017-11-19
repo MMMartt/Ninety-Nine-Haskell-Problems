@@ -11,6 +11,14 @@ compress (a:b:xs) =
     then compress (b : xs)
     else a : compress (b : xs)
 
+-- from solution page:
+{-
+compress' (x:ys@(y:_))
+  | x == y = compress' ys
+  | otherwise = x : compress' ys
+compress' ys = ys
+-}
+
 main :: IO ()
 main = do
   print $ compress "fuckrettturn  value"
