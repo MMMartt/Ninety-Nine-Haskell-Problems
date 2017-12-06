@@ -1,4 +1,5 @@
 # [Ninety-Nine-Haskell-Problems](https://wiki.haskell.org/H-99:_Ninety-Nine_Haskell_Problems)
 
-- keep learning :(
-- :p
+- run each `xx.hs` by `stack runhaskell xx.hs`.
+
+- keep learning :P
